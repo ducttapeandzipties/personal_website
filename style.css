@@ -36,10 +36,18 @@ body {
   justify-content: right;
 }
 #nav {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
+
+  border-radius: 15px;
   background-color: #D5DBDB;
   opacity: 0.85;
+}
+#nav a {
+  display: inline;
+  /* float:left; */
+  padding: 7%;
+  height: auto;
 }
 #projects img {
   display: inline;
@@ -49,11 +57,16 @@ body {
   height: auto;
 }
 
+/* responsive section */
+
+/* full width */
 @media screen and (min-width: 950px) {
   body {
     background-size: 100%;
   }
 }
+
+/* mobile width */
 @media screen and (max-width: 700px) {
   #projects img {
     width: 100%;
