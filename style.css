@@ -4,7 +4,7 @@ body {
   font-family: 'Oxygen', sans-serif;
   display: flex;
   justify-content: center;
-  background-image: url("img/community_center.jpg");
+  background-image: url("img/background.jpg");
   background-attachment: fixed;
   /*background-size: 100%;
   background-repeat: no-repeat;*/   /*needs to go inside media query*/
@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
+
 }
 .bubbles img {
     display: block;
@@ -57,4 +57,3 @@ body {
     width: 100%;
   }
 }
-
