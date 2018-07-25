@@ -1,0 +1,60 @@
+/*####  ########*/
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: url("img/community_center.jpg");
+  background-attachment: fixed;
+  /*background-size: 100%;
+  background-repeat: no-repeat;*/   /*needs to go inside media query*/
+}
+.bubbles {
+  padding: 5%;
+  max-width: 900px;
+  background-color: #5889D6;
+  border-radius: 15px;
+  margin: 20% 10% 30% 10%;
+  opacity: 0.85;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.bubbles img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+}
+#nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #B8AD8F;
+  opacity: 0.85;
+}
+#photos img {
+  display: inline;
+  float:left;
+  padding: 3%;
+  width: 25%;
+  height: auto;
+}
+
+@media screen and (min-width: 950px) {
+  body {
+    background-size: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  #photos img {
+    width: 100%;
+  }
+}
+
