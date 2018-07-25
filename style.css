@@ -12,7 +12,7 @@ body {
 .bubbles {
   padding: 5%;
   max-width: 900px;
-  background-color: #5889D6;
+  background-color: #D5DBDB;
   border-radius: 15px;
   margin: 20% 10% 30% 10%;
   opacity: 0.85;
@@ -30,13 +30,15 @@ body {
     height: auto;
 }
 #logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 5em;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 #nav {
   display: flex;
   justify-content: space-around;
-  background-color: #B8AD8F;
+  background-color: #D5DBDB;
   opacity: 0.85;
 }
 #photos img {
