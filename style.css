@@ -41,7 +41,8 @@ body {
 #nav {
   /* display: flex;
   justify-content: space-around; */
-
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
   border-radius: 15px;
   background-color: #D5DBDB;
   opacity: 0.85;
@@ -50,7 +51,7 @@ body {
   display: inline;
   /* float:left; */
   padding: 7%;
-  height: auto;
+  height: auto
 }
 #projects img {
   display: inline;
@@ -59,6 +60,12 @@ body {
   width: 25%;
   height: auto;
 }
+#footer {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  margin: 20% 10% 1% 10%;
+}
+
 
 /* responsive section */
 
