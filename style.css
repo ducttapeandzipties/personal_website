@@ -60,6 +60,12 @@ body {
   width: 25%;
   height: auto;
 }
+.navbutton {
+  display: inline;
+  padding: 3%;
+  width: 25%;
+  height: auto;
+}
 #footer {
   font-family: 'Anton', sans-serif;
   font-size: 2em;
