@@ -1,11 +1,19 @@
 /*####  ########*/
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
 body {
   font-family: 'Oxygen', sans-serif;
   display: flex;
   justify-content: center;
   background-image: url("img/background.jpg");
   background-attachment: fixed;
+  background-repeat: repeat;
   /*background-size: 100%;
   background-repeat: no-repeat;*/   /*needs to go inside media query*/
 }
@@ -42,7 +50,7 @@ body {
   /* display: flex;
   justify-content: space-around; */
   font-family: 'Anton', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   border-radius: 15px;
   background-color: #D5DBDB;
   opacity: 0.85;
@@ -55,20 +63,22 @@ body {
 }
 #projects img {
   display: inline;
-  /* float:left; */
   padding: 3%;
   width: 25%;
   height: auto;
 }
-.navbutton {
+/* .contact {
   display: inline;
   padding: 3%;
   width: 25%;
   height: auto;
+} */
+#contact a {
+  display: inline;
 }
 #footer {
   font-family: 'Anton', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 20% 10% 1% 10%;
 }
 
